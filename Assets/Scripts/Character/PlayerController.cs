@@ -117,10 +117,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(groundDetection.position, Vector2.down, dist, mask);
         if (hit.collider)
         {
-            if (isJumping)
-            {
-                isJumping = false;
-            }
+            
 
             isGround = true;
         }
