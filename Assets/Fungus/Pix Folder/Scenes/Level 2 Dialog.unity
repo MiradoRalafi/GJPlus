@@ -885,9 +885,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1086984348}
-  selectedCommands:
-  - {fileID: 1086984359}
+  - {fileID: 1086984326}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -933,7 +932,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 70.0989
-    y: 60.257683
+    y: 56.310318
     width: 109.21051
     height: 40
   tint: {r: 0.41509432, g: 0.013705952, b: 0.013705952, a: 1}
@@ -1478,8 +1477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 745.0504
-    y: 108.379196
+    x: 746.3662
+    y: 107.06341
     width: 115.78945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1742,7 +1741,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1086984359
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1763,7 +1762,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1086984360
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1784,7 +1783,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1086984361
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
