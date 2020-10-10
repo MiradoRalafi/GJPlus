@@ -23,9 +23,11 @@ public class PlateformController : MonoBehaviour
         if (transform.position == pos1.position)
         {
             nextPos = pos2.position;
+            print("POS = POS1");
         }
         if (transform.position == pos2.position)
         {
+            print("POS = POS2");
             nextPos = pos1.position;
         }
 
@@ -33,9 +35,6 @@ public class PlateformController : MonoBehaviour
 
     }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(pos1.position, pos2.position); 
-    }
+    
 
 }

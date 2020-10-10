@@ -55,8 +55,8 @@ public class PlayerController : MonoBehaviour
             CheckWhereToFace();
             SetAnimationState();
         }
-        else
-            anim.SetTrigger("isDead");//Eto no anoloana anle variable anle animationDead --Chains
+       // else
+            //anim.SetTrigger("isDead");//Eto no anoloana anle variable anle animationDead --Chains
     }
 
     void Move()
@@ -95,8 +95,8 @@ public class PlayerController : MonoBehaviour
     {
         //Ato mgerer anle animation Jump, Walk
         anim.SetBool("isJumping", isJumping && !isGround);
-        anim.SetBool("isFalling", !isGround);
-        anim.SetBool("isFalling", isJumping && !isGround);
+        //anim.SetBool("isFalling", !isGround);
+        //anim.SetBool("isFalling", isJumping && !isGround);
         anim.SetBool("isWalking", isGround && isWalk);
     }
 
