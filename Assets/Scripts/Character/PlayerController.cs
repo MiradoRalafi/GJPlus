@@ -30,16 +30,15 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isTopDown)
-            rb.isKinematic = true;
-        else
-            rb.isKinematic = false;
+        //if (isTopDown)
+        //    rb.isKinematic = true;
+        //else
+        //    rb.isKinematic = false;
         CheckDead();
 
         if (!isDead)
