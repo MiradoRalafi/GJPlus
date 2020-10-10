@@ -68,13 +68,10 @@ public class PlayerController : MonoBehaviour
         {
             lastDirection = direction;
         }
-
-
         rb.velocity = new Vector2(direction * speed, rb.velocity.y);
         if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
-
-            rb.AddForce(new Vector2(0, jumpForce));
+            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             isGround = false;
             isJumping = true;
         }
@@ -92,8 +89,6 @@ public class PlayerController : MonoBehaviour
         {
             lastDirection = directionX;
         }
-
-
         rb.velocity = new Vector2(directionX * speed, directionY * speed);
     }
     void SetAnimationState()
@@ -117,13 +112,10 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(groundDetection.position, Vector2.down, dist, mask);
         if (hit.collider)
         {
-            
-
             isGround = true;
         }
         else
         {
-
             isGround = false;
         }
     }
