@@ -2,19 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraControllerGoUp : MonoBehaviour
+public class CameraControllerGoUp : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        this.transform.position = new Vector3(0, 1 ,-2);
-    }
+    public float InitialWaitTime;
+    public float Speed;
 
-    // Update is called once per frame
     void Update()
     {
-
-        transform.position += new Vector3(0, 1 * Time.deltaTime,0);
-
+        if (InitialWaitTime > 0)
+        {
+            InitialWaitTime -= Time.deltaTime;
+            return;
+        }
+        transform.Translate(Vector2.up * Speed * Time.deltaTime);
     }
 }
