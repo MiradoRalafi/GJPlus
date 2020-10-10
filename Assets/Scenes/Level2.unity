@@ -1458,8 +1458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0c4621ff915024aa54fc3b06590582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InitialWaitTime: 3
-  Speed: 2
+  InitialWaitTime: 1
+  Speed: 0.5
 --- !u!1 &1762290916
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,7 +1484,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762290916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.95, y: 8.61, z: -13.306641}
+  m_LocalPosition: {x: -3.5, y: 8.61, z: -13.306641}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2366,7 +2366,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138918328}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -3.59, y: 9.940001, z: 0.8339877}
+  m_LocalPosition: {x: -0.63, y: 9.940001, z: 0.8339877}
   m_LocalScale: {x: 0.3, y: 3.522952, z: 1}
   m_Children: []
   m_Father: {fileID: 860410025}
@@ -2460,4 +2460,4 @@ MonoBehaviour:
   pos1: {fileID: 394193847}
   pos2: {fileID: 1762290917}
   speed: 2
-  startPos: {fileID: 394193847}
+  startPos: {fileID: 1762290917}
