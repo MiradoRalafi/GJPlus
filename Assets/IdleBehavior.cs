@@ -28,12 +28,12 @@ public class IdleBehavior : StateMachineBehaviour
         if (Vector2.Distance(player.position, rb.position) <= boss.attackRange)
         {
             animator.SetTrigger("attackC");
-            timeBtWShots = startTimeBtwShots;
+          //  timeBtWShots = startTimeBtwShots;
         }
         else
         {
             animator.SetTrigger("attackG");
-            timeBtWShots -= Time.deltaTime;
+         //   timeBtWShots -= Time.deltaTime;
         }
     }
 
