@@ -20,6 +20,13 @@ public class Lvl2PlayerCheck : MonoBehaviour
            // Invoke("dropPlateform", 0.5f);
            // Destroy(gameObject, 2f);
         }
+        if (col.gameObject.name.Equals("chechWin"))
+        {
+            print("YOU Win");
+            //StartCoroutine(Dead());
+            // Invoke("dropPlateform", 0.5f);
+            // Destroy(gameObject, 2f);
+        }
     }
 
     // Update is called once per frame
