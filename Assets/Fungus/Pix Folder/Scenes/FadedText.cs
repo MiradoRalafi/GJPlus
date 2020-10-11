@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 
-public class NewBehaviourScript : MonoBehaviour
+public class FadedText: MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI m_TextComponent;
@@ -89,13 +89,12 @@ public class NewBehaviourScript : MonoBehaviour
                         yield return new WaitForSeconds(1.0f);
 
                         // Reset the text object back to original state.
-                        m_TextComponent.ForceMeshUpdate();
+                        //m_TextComponent.ForceMeshUpdate();
 
                         yield return new WaitForSeconds(1.0f);
 
                         // Reset our counters.
-                        currentCharacter = 0;
-                        startingCharacterRange = 0;
+                 
                        
 
                         isRangeMax = true; // Would end the coroutine.
@@ -110,7 +109,7 @@ public class NewBehaviourScript : MonoBehaviour
 
             yield return new WaitForSeconds(0.25f - FadeSpeed * 0.01f);
         }
-        SceneManager.LoadScene(Scenename, LoadSceneMode.Additive);
+        
 
     }
 
