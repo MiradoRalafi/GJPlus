@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
                     if (deadScreen != null)
                     {
                         deadScreen.SetActive(true);
-                        StartCoroutine(LoadScene());
+                        StartCoroutine(LoadScene2());
                     }
                 }
             }
@@ -45,6 +45,11 @@ public class UIManager : MonoBehaviour
     IEnumerator LoadScene()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene("Level1Part2");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+    IEnumerator LoadScene2()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("Level3");
     }
 }

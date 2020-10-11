@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 3.unity
     guid: d98d68ef0287eef49973ce1a2e45db8d
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/Boss Fight 3.unity
+    guid: 2f415e4f6c9c47649a63021692c8be31
   m_configObjects: {}

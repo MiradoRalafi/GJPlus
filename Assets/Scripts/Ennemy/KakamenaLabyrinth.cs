@@ -44,7 +44,6 @@ public class KakamenaLabyrinth : MonoBehaviour
             float distance = Vector2.Distance(transform.position, Target.transform.position);
             if (distance <= .2f && Target.GetSpotlightRadius() == 1)
             {
-                print("Dead");
                 Target.GetComponent<TopDownController>().isDead = true;
             }
         }

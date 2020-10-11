@@ -22,6 +22,7 @@ public class FireCamp : MonoBehaviour
     {
         SpotLight.gameObject.SetActive(true);
         FireLight.gameObject.SetActive(true);
+        Lv3.light++;
         Active = true;
         StartCoroutine(StartSpotLightChange(75));
     }
