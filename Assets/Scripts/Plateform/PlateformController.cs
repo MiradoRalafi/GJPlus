@@ -23,11 +23,11 @@ public class PlateformController : MonoBehaviour
         if (transform.position == pos1.position)
         {
             nextPos = pos2.position;
-            print("POS = POS1");
+            //print("POS = POS1");
         }
         if (transform.position == pos2.position)
         {
-            print("POS = POS2");
+            //print("POS = POS2");
             nextPos = pos1.position;
         }
 
