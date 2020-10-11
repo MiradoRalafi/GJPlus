@@ -76,6 +76,7 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             isGround = false;
             isJumping = true;
+            anim.SetTrigger("jump");
         }
     }
     void MoveTopDown()
@@ -96,7 +97,8 @@ public class PlayerController : MonoBehaviour
     void SetAnimationState()
     {
         //Ato mgerer anle animation Jump, Walk
-        anim.SetBool("isJumping", isJumping && !isGround);
+        
+       // anim.SetBool("isJumping", isJumping && !isGround);
         //anim.SetBool("isFalling", !isGround);
         //anim.SetBool("isFalling", isJumping && !isGround);
         anim.SetBool("isWalking", isGround && isWalk);
