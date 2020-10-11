@@ -12,7 +12,6 @@ public class AudioManager : MonoBehaviour
     {
         instanceMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
         instanceMusic.start();
-        PlayMusicSelector(0);
         //instanceAmbi = FMODUnity.RuntimeManager.CreateInstance("event:/Ambi");
         //instanceAmbi.start();
     }
