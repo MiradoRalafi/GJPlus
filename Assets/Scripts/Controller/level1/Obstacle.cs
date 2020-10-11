@@ -16,4 +16,12 @@ public class Obstacle : MonoBehaviour
     {
         transform.Rotate(0, 0, 80 * Time.deltaTime);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //print("Collide");
+        if (collision.tag.Equals("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerController>().isDead=true;
+        }
+    }
 }
