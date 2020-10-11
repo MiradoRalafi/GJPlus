@@ -311,8 +311,8 @@ MonoBehaviour:
     the legends appeared\n          That day everything changed.  \n                  
     My Name is Hero \n\n              This is My Untold Storie"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 6e0a272d6c89a9347a5626feeb1eb2f5, type: 2}
-  m_sharedMaterial: {fileID: 4180460886605262061, guid: 6e0a272d6c89a9347a5626feeb1eb2f5,
+  m_fontAsset: {fileID: 11400000, guid: 26ba15b0239c9034993fd022c671f79e, type: 2}
+  m_sharedMaterial: {fileID: -2594736775119061689, guid: 26ba15b0239c9034993fd022c671f79e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -426,7 +426,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5094162}
   m_AnchorMax: {x: 0.5, y: 0.5094162}
-  m_AnchoredPosition: {x: 71, y: -0.000005722046}
+  m_AnchoredPosition: {x: -26, y: -5}
   m_SizeDelta: {x: 767.2, y: 501.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1108561934
