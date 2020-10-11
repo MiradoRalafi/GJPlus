@@ -121,6 +121,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!224 &20987132 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22410280, guid: c6289d5f8fa843145a2355af9cb09719,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080256175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &75044758
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +191,7 @@ SpriteRenderer:
   m_Size: {x: 24, y: 12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &75044760
@@ -202,6 +208,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &258547773 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22410272, guid: c6289d5f8fa843145a2355af9cb09719,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080256175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &820967235
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,6 +419,38 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 606.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410272, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1275
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410272, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1293
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410280, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1200
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410280, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -606.21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
 --- !u!1 &1097381056
@@ -522,6 +566,8 @@ GameObject:
   - component: {fileID: 1390609601}
   - component: {fileID: 1390609599}
   - component: {fileID: 1390609610}
+  - component: {fileID: 1390609612}
+  - component: {fileID: 1390609611}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -556,7 +602,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1390609600}
   selectedCommands:
-  - {fileID: 1390609610}
+  - {fileID: 1390609611}
   variables: []
   description: 
   stepPause: 0
@@ -603,7 +649,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 74.4945
-    y: 62.67237
+    y: 60.474567
     width: 109.34065
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -613,7 +659,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1390609608}
   commandList:
+  - {fileID: 1390609612}
   - {fileID: 1390609607}
+  - {fileID: 1390609611}
   - {fileID: 1390609606}
   - {fileID: 1390609605}
   - {fileID: 1390609604}
@@ -775,7 +823,7 @@ MonoBehaviour:
   storyText: 'You make me really angry '
   description: 
   character: {fileID: 1702782595}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -802,7 +850,7 @@ MonoBehaviour:
   storyText: "I am back to reality \nDid i defeat him ?"
   description: 
   character: {fileID: 1423463892}
-  portrait: {fileID: 21300000, guid: 8f13ca3142900f24b8aaeffcf4503854, type: 3}
+  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -843,7 +891,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1390609610
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -861,6 +909,66 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 23
+--- !u!114 &1390609611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390609597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1702782595}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1592396621}
+  toPosition: {fileID: 1689811288}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1390609612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390609597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1423463892}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  offset: 0
+  fromPosition: {fileID: 258547773}
+  toPosition: {fileID: 20987132}
+  facing: 2
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1423463891
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +1020,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1592396621 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080256175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1689811288 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080256175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1702782594
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,7 +1065,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  - {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
