@@ -183,15 +183,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0e9767bc88b404362852d1a4d5c0d103, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 238248d32ebbd5d4ca3b24c7202a4278, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 24, y: 12}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &75044760
@@ -202,8 +202,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75044758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.054, y: 0.018, z: 0}
+  m_LocalScale: {x: 1.2458515, y: 1.1224827, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -911,7 +911,7 @@ MonoBehaviour:
   fadeTweenType: 23
 --- !u!114 &1390609611
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -927,7 +927,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1702782595}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  portrait: {fileID: 21300000, guid: 0f064c5b6abff234f863b80d8d60d94d, type: 3}
   offset: 0
   fromPosition: {fileID: 1592396621}
   toPosition: {fileID: 1689811288}
@@ -941,7 +941,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1390609612
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1061,11 +1061,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: SNAKE
+  nameText: Kakamena Maso
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  - {fileID: 21300000, guid: 0f064c5b6abff234f863b80d8d60d94d, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
