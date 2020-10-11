@@ -27,22 +27,75 @@ public class TopDownController : MonoBehaviour
     public LayerMask environmentLayer;
     protected CollisionInfo collisionInfo;
 
-    public int faceDirection;
+    private string currentMoveAxis;
+
+    Light spotLight;
+    public float NormalLightAngle = 30;
+    public float LightShrinkCountdown = 5;
+    float timeBeforeLightShrink;
 
     protected void Start()
     {
+        spotLight = GetComponentInChildren<Light>();
         CalculateRaySpacings();
     }
 
     void Update()
     {
-        Vector2 velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        animator.SetBool("isWalking", (velocity.x != 0 || velocity.y != 0) ? true : false);
-        if (faceDirection != velocity.x && velocity.x != 0)
+        if (timeBeforeLightShrink > 0)
         {
-            FlipHorizontally();
+            timeBeforeLightShrink -= Time.deltaTime;
+            if(timeBeforeLightShrink <= 0)
+            {
+                StartCoroutine(StartSpotLightChange(NormalLightAngle));
+            }
+        }
+        velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        animator.SetBool("LeftWalking", false);
+        animator.SetBool("RightWalking", false);
+        animator.SetBool("DownWalking", false);
+        animator.SetBool("UpWalking", false);
+        if (velocity.x != 0)
+        {
+            print(velocity.x == -1);
+            print(velocity.x == 1);
+            animator.SetBool("LeftWalking", velocity.x == -1);
+            animator.SetBool("RightWalking", velocity.x == 1);
+        }
+        else
+        {
+            animator.SetBool("DownWalking", velocity.y == -1);
+            animator.SetBool("UpWalking", velocity.y == 1);
         }
         Move(velocity * MoveSpeed * Time.deltaTime);
+        velocityOld = velocity;
+    }
+
+    public void SetSpotlightRadius(float angle)
+    {
+        StartCoroutine(StartSpotLightChange(angle));
+    }
+
+    IEnumerator StartSpotLightChange(float angle)
+    {
+        if(spotLight.spotAngle > angle)
+        {
+            while (spotLight.spotAngle > angle)
+            {
+                yield return new WaitForSeconds(.05f);
+                spotLight.spotAngle--;
+            }
+        }
+        if (spotLight.spotAngle < angle)
+        {
+            while (spotLight.spotAngle < angle)
+            {
+                yield return new WaitForSeconds(.05f);
+                spotLight.spotAngle++;
+            }
+        }
+        spotLight.spotAngle = angle;
+        timeBeforeLightShrink = LightShrinkCountdown;
     }
 
     /// <summary>
@@ -115,13 +168,6 @@ public class TopDownController : MonoBehaviour
                 collisionInfo.bottom = direction == -1;
             }
         }
-    }
-
-    protected void FlipHorizontally()
-    {
-        animator.transform.Rotate(Vector2.up * 180);
-        velocity.x = -velocity.x;
-        faceDirection = -faceDirection;
     }
 
     /// <summary>
