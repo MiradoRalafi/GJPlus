@@ -308,7 +308,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\n       Madagascar, 2020\n  Man destroyed nature\n             I was
     a child \n     When they appeared\n                That day \n       everything
-    changed  \n          My Name is Hero \n\nThis is My Untold Storie"
+    changed  \n          My Name is Hasinala \n\nThis is My Untold Storie"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26ba15b0239c9034993fd022c671f79e, type: 2}
   m_sharedMaterial: {fileID: -2594736775119061689, guid: 26ba15b0239c9034993fd022c671f79e,
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -44.73169, w: -13.771484}
   m_textInfo:
     textComponent: {fileID: 785837338}
-    characterCount: 206
+    characterCount: 210
     spriteCount: 0
     spaceCount: 91
     wordCount: 26
@@ -466,6 +466,7 @@ MonoBehaviour:
   RolloverCharacterSpread: 10
   Scenename: Level 1 Dialog
   objet: {fileID: 1217859100}
+  objet1: {fileID: 1883172046}
 --- !u!114 &1108561936
 MonoBehaviour:
   m_ObjectHideFlags: 0

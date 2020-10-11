@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/images/Niv3/Kakamena.meta
 guid: 62714be8a94673d4e84397262c88b00d
+=======
+guid: bf65d30628e830c42b031e3f86101da6
+>>>>>>> 10faac24cac688c0a3844b368f9eecf6d75e6123:Assets/Editor Default Resources.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Resources/images/Niv3/Kakamena/stand.meta
 guid: f0cd873d952bb44499d4710d5f22c466
+=======
+guid: de3e8b62076ca374fa7c79b5a35312ea
+>>>>>>> 10faac24cac688c0a3844b368f9eecf6d75e6123:Assets/Plugins/FMOD/Cache.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

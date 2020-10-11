@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{00db6ec5-fa7a-4b89-bd9e-75f5f6dd939f}">
+		<property name="assetPath">
+			<value>120_E_Pyro_SP_66_01.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.0718367346938784</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{815b7ae8-fa9d-457b-a898-2a18d3d32d8a}</destination>
+		</relationship>
+	</object>
+</objects>

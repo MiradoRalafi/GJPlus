@@ -39,7 +39,7 @@ public class Lvl2PlayerCheck : MonoBehaviour
     {
 
         //panel.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(4f);
         SceneManager.LoadScene("StoryTelling 3");
     }
   
@@ -48,7 +48,7 @@ public class Lvl2PlayerCheck : MonoBehaviour
     {
         
         panel.SetActive(true);
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

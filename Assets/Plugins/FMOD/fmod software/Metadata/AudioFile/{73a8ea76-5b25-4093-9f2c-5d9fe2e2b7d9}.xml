@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{73a8ea76-5b25-4093-9f2c-5d9fe2e2b7d9}">
+		<property name="assetPath">
+			<value>124_MasembaPerc_SP_8_37.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>15.542857142857143</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{815b7ae8-fa9d-457b-a898-2a18d3d32d8a}</destination>
+		</relationship>
+	</object>
+</objects>
