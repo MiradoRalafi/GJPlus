@@ -20,6 +20,14 @@ public class Lvl2PlayerCheck : MonoBehaviour
            // Invoke("dropPlateform", 0.5f);
            // Destroy(gameObject, 2f);
         }
+        if (col.gameObject.name.Equals("chechWin"))
+        {
+            print("YOU Win");
+
+            StartCoroutine(Win());
+            // Invoke("dropPlateform", 0.5f);
+            // Destroy(gameObject, 2f);
+        }
     }
 
     // Update is called once per frame
@@ -27,8 +35,18 @@ public class Lvl2PlayerCheck : MonoBehaviour
     {
         
     }
+    IEnumerator Win()
+    {
+
+        //panel.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("StoryTelling 3");
+    }
+  
+
     IEnumerator Dead()
     {
+        
         panel.SetActive(true);
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

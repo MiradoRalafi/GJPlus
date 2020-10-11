@@ -5,34 +5,52 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/Level1.unity
-    guid: 73992fbe8ed29244a958172d8cc454bf
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: f4b948bff0b34d545918e4c7aee384f8
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 73992fbe8ed29244a958172d8cc454bf
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: fc195b83b2650124b9dbdb77a7304cf3
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: a1c574aa84ff53a42a952cb1838f3df5
+  - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 1.unity
     guid: 3bf0ddcecc2856d449c229f9c540e7de
-  - enabled: 1
-    path: Assets/Fungus/Pix Folder/Scenes/Level 1 Dialog.unity
-    guid: c7dd15d7920f83a4a93efbf19766493f
   - enabled: 1
     path: Assets/Scenes/Level1Part2.unity
     guid: c6e326ce29bd28346b5dd9fe79603d76
   - enabled: 1
-    path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 2.unity
-    guid: bc2aa4ff7de87da418c5e6e6f3e6575f
+    path: Assets/Fungus/Pix Folder/Scenes/Ending.unity
+    guid: e0a665610897e3c47ab72a0fcd07f828
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/Level 2 Dialog.unity
     guid: 624b29a59b1cc85419715a115b89121a
   - enabled: 1
-    path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 3.unity
-    guid: d98d68ef0287eef49973ce1a2e45db8d
+    path: Assets/Fungus/Pix Folder/Scenes/Level 1 Dialog.unity
+    guid: c7dd15d7920f83a4a93efbf19766493f
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/Level 3 Dialog.unity
     guid: 7fd1a7dc67c7e384ebb27aa70d952256
+  - enabled: 1
+    path: Assets/Scenes/BossKaKamena.unity
+    guid: b18d137f10a619f48b02cb52129e4875
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/Level 4 Dialog.unity
+    guid: 72108751473ed6a4dba057733b337719
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 2.unity
+    guid: bc2aa4ff7de87da418c5e6e6f3e6575f
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/Wiki.unity
+    guid: 6bd02b4dfe9f9ed4e9946fdf83b5609a
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 4.unity
+    guid: 35a0a78adb50b424eb61ae485d264355
+  - enabled: 1
+    path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 3.unity
+    guid: d98d68ef0287eef49973ce1a2e45db8d
   m_configObjects: {}

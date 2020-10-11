@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MoveObtsacle : MonoBehaviour
 {
@@ -28,7 +29,8 @@ public class MoveObtsacle : MonoBehaviour
                 listeBackground[i].GetComponent<ParallaxController>().enabled = false;
             }
 
-            gameObject.SetActive(false);
+            SceneManager.LoadScene("StoryTelling 2");
+           // gameObject.SetActive(false);
 
 
         }
