@@ -157,7 +157,7 @@ MonoBehaviour:
   m_TextComponent: {fileID: 757283709}
   FadeSpeed: 20
   RolloverCharacterSpread: 10
-  Scenename: fdsfdsfsd
+  Scenename: Level 2 Dialog
   objet: {fileID: 265807605}
 --- !u!114 &32113203
 MonoBehaviour:
