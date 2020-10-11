@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b3e0ec74-1807-4f2d-800c-07d93778b516}">
+		<property name="assetPath">
+			<value>G_RumblingAtmos_718.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>27.350204081632654</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{815b7ae8-fa9d-457b-a898-2a18d3d32d8a}</destination>
+		</relationship>
+	</object>
+</objects>
