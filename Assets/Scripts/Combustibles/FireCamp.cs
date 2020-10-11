@@ -5,12 +5,15 @@ using UnityEngine;
 public class FireCamp : MonoBehaviour
 {
     public Light SpotLight;
+    public FireLight FireLight;
+    public bool Active = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         TopDownController controller = collision.GetComponent<TopDownController>();
         if (controller != null)
         {
+            controller.SetSpotlightRadius(60);
             ActivateSpotLight();
         }
     }
@@ -18,7 +21,9 @@ public class FireCamp : MonoBehaviour
     private void ActivateSpotLight()
     {
         SpotLight.gameObject.SetActive(true);
-        StartCoroutine(StartSpotLightChange(90));
+        FireLight.gameObject.SetActive(true);
+        Active = true;
+        StartCoroutine(StartSpotLightChange(75));
     }
 
     IEnumerator StartSpotLightChange(float angle)

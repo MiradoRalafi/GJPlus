@@ -19,12 +19,25 @@ public class UIManager : MonoBehaviour
     {
         if (player != null)
         {
-            if (player.GetComponent<PlayerController>().isDead)
+            PlayerController controller = player.GetComponent<PlayerController>();
+            if (controller != null && controller.isDead)
             {
                 if (deadScreen != null)
                 {
                     deadScreen.SetActive(true);
                     StartCoroutine(LoadScene());
+                }
+            }
+            else
+            {
+                TopDownController tController = player.GetComponent<TopDownController>();
+                if (tController != null && tController.isDead)
+                {
+                    if (deadScreen != null)
+                    {
+                        deadScreen.SetActive(true);
+                        StartCoroutine(LoadScene());
+                    }
                 }
             }
         }

@@ -31,8 +31,10 @@ public class TopDownController : MonoBehaviour
 
     Light spotLight;
     public float NormalLightAngle = 30;
-    public float LightShrinkCountdown = 6;
+    public float LightShrinkCountdown = 4.5f;
     float timeBeforeLightShrink;
+    public float MinDistance = 15;
+    public bool isDead;
 
     protected void Start()
     {
@@ -72,6 +74,11 @@ public class TopDownController : MonoBehaviour
         velocityOld = velocity;
     }
 
+    public float GetSpotlightRadius()
+    {
+        return spotLight.spotAngle;
+    }
+
     public void SetSpotlightRadius(float angle)
     {
         StartCoroutine(StartSpotLightChange(angle));
@@ -80,7 +87,6 @@ public class TopDownController : MonoBehaviour
 
     IEnumerator StartSpotLightChange(float angle)
     {
-        print("Spotlight change to " + angle);
         if(spotLight.spotAngle > angle)
         {
             while (spotLight.spotAngle > angle)
