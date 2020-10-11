@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Lvl2PlayerCheck : MonoBehaviour
 {
+    public GameObject panel;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,8 +16,16 @@ public class Lvl2PlayerCheck : MonoBehaviour
         if (col.gameObject.name.Equals("waterCollider"))
         {
             print("YOU ARE DEAD");
+            StartCoroutine(Dead());
            // Invoke("dropPlateform", 0.5f);
            // Destroy(gameObject, 2f);
+        }
+        if (col.gameObject.name.Equals("chechWin"))
+        {
+            print("YOU Win");
+            //StartCoroutine(Dead());
+            // Invoke("dropPlateform", 0.5f);
+            // Destroy(gameObject, 2f);
         }
     }
 
@@ -23,5 +33,12 @@ public class Lvl2PlayerCheck : MonoBehaviour
     void Update()
     {
         
+    }
+    IEnumerator Dead()
+    {
+        
+        panel.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
