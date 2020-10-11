@@ -29,9 +29,11 @@ public class Boss : MonoBehaviour
     }
     void Update()
     {
-        healthBar.value = (float)pv / maxHealth;
-        print("HealthBar value :" + healthBar.value);
-
+        if (healthBar)
+        {
+            healthBar.value = (float)pv / maxHealth;
+            print("HealthBar value :" + healthBar.value);
+        }
 
     }
 
