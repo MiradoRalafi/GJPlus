@@ -9,7 +9,14 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("StoryTelling 1");
     }
-
+    public void WIKI()
+    {
+        SceneManager.LoadScene("Wiki");
+    }
+    public void TOMENU()
+    {
+        SceneManager.LoadScene("MainMenu");
+    } 
     public void ExitGame()
     {
         Debug.Log("QUIT!");
