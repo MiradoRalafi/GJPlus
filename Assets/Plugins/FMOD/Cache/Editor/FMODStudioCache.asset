@@ -17,6 +17,24 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 1
+--- !u!114 &-3527970292512258261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637380526659806479
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31,18 +49,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8195577825990588059}
-  - {fileID: 784467050792628291}
+  - {fileID: -3527970292512258261}
   EditorEvents:
   - {fileID: 4663949389121012676}
   - {fileID: 7432658626321026868}
   - {fileID: 1511688564140896362}
   EditorParameters:
-  - {fileID: -4408184473151038298}
+  - {fileID: 8098404310504547908}
   MasterBanks:
-  - {fileID: 784467050792628291}
+  - {fileID: -3527970292512258261}
   StringsBanks:
   - {fileID: 8195577825990588059}
-  stringsBankWriteTime: 637380571562249397
+  stringsBankWriteTime: 637380526659866327
   cacheVersion: 3
 --- !u!114 &784467050792628291
 MonoBehaviour:
@@ -77,7 +95,7 @@ MonoBehaviour:
   Path: event:/music
   guid: cc3c116cb0639d43a59683709401dc36
   Banks:
-  - {fileID: 784467050792628291}
+  - {fileID: -3527970292512258261}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -136,7 +154,7 @@ MonoBehaviour:
   Path: event:/ambi
   guid: 42c9371b88a6d04a88b8d865c0fc4c06
   Banks:
-  - {fileID: 784467050792628291}
+  - {fileID: -3527970292512258261}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -193,7 +211,7 @@ MonoBehaviour:
   Path: event:/music/level0100
   guid: c68d98d5a5632942a47dff26f8d94090
   Banks:
-  - {fileID: 784467050792628291}
+  - {fileID: -3527970292512258261}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -201,6 +219,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 45727
+--- !u!114 &8098404310504547908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &8195577825990588059
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,7 +250,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637380571562249397
+  lastModified: 637380526659866327
   LoadResult: 0
   FileSizes:
   - Name: Desktop
