@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private float dirX;
-    private bool isHurting = false, isDead=false;
+    public bool isHurting = false, isDead=false;
     private bool facingRight = true;
    // public Vector3 respawnPoint;
     private bool isGround = false;

@@ -6,7 +6,7 @@ public class CameraControllerGoUp : MonoBehaviour
 {
     public float InitialWaitTime;
     public float Speed;
-
+    //Commentaires
     void Update()
     {
         if (InitialWaitTime > 0)
