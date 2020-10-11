@@ -365,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1200
+      value: -1301
       objectReference: {fileID: 0}
     - target: {fileID: 22410272, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -377,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1200
+      value: -1301
       objectReference: {fileID: 0}
     - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1282
+      value: 1268
       objectReference: {fileID: 0}
     - target: {fileID: 22410280, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -785,11 +785,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: SNAKE
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameText: Zaza Vavin-drano
+  nameColor: {r: 0.13679248, g: 0.16472821, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  - {fileID: 21300000, guid: 27f6847bbd7315c419e16d1b11fe5adc, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -836,7 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Hero
+  nameText: Hasinala
   nameColor: {r: 0.36058205, g: 0.6886792, b: 0.37638214, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -933,11 +933,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 304.51193, y: 16.366274}
+  scrollPos: {x: 393.77246, y: 21.514866}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6700003
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -945,9 +945,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1086984326}
+  - {fileID: 1086984348}
   selectedCommands:
-  - {fileID: 1086984333}
+  - {fileID: 1086984327}
   variables: []
   description: 
   stepPause: 0
@@ -994,7 +994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.0989
     y: 54.99453
-    width: 112.68654
+    width: 112.068924
     height: 40
   tint: {r: 0.41509432, g: 0.013705952, b: 0.013705952, a: 1}
   useCustomTint: 1
@@ -1075,7 +1075,7 @@ MonoBehaviour:
   storyText: Crap !!!!! I need to climb if dont want to die here
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1102,7 +1102,7 @@ MonoBehaviour:
   storyText: Ok , everything for you !!!
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1129,7 +1129,7 @@ MonoBehaviour:
   storyText: 'Can you remove this Stone over there , you can find some water there '
   description: 
   character: {fileID: 909029557}
-  portrait: {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   storyText: Water ? Ok , but where i can find that ?
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1211,7 +1211,7 @@ MonoBehaviour:
     you know ?
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1294,7 +1294,7 @@ MonoBehaviour:
   storyText: 'What the f*** Happen ? '
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1359,7 +1359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.49493
     y: 243.23566
-    width: 120.14922
+    width: 118.96547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.0004
     y: 153.09993
-    width: 118.656685
+    width: 117.24133
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1431,7 +1431,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 442.55807
     y: 164.26993
-    width: 120.14922
+    width: 120.689606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1543,8 +1543,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 743.3811
-    y: 105.57087
-    width: 120.14922
+    y: 102.58579
+    width: 118.96547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1664,7 +1664,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.38184
     y: 264.27
-    width: 120.14922
+    width: 120.689606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1886,7 +1886,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 909029557}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  portrait: {fileID: 21300000, guid: 27f6847bbd7315c419e16d1b11fe5adc, type: 3}
   offset: 0
   fromPosition: {fileID: 86119722}
   toPosition: {fileID: 358980429}
@@ -2006,7 +2006,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 909029557}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 6456735007604994f9516b9459e2011f, type: 3}
+  portrait: {fileID: 21300000, guid: 27f6847bbd7315c419e16d1b11fe5adc, type: 3}
   offset: 0
   fromPosition: {fileID: 86119722}
   toPosition: {fileID: 358980429}
@@ -2086,7 +2086,7 @@ MonoBehaviour:
   storyText: haaaaaaaaaaaaaaaaaaaa
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2113,7 +2113,7 @@ MonoBehaviour:
   storyText: Damn !! She push me to the hole !!
   description: 
   character: {fileID: 1007727607}
-  portrait: {fileID: 21300000, guid: 91a2eac5a332fd240b678ef5ac1fcf1f, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
