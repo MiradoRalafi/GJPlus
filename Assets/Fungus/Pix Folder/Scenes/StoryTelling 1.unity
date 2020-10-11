@@ -309,7 +309,7 @@ MonoBehaviour:
   m_text: "                Chapitre 1 : Beginning        \n\n      \n                  
     Madagascar, 2020\n                 Man destroyed nature.\n    I was a child when
     the legends appeared\n          That day everything changed.  \n                  
-    My Name is Hero \n\n                This is My Untold Storie"
+    My Name is Hero \n\n              This is My Untold Storie"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6e0a272d6c89a9347a5626feeb1eb2f5, type: 2}
   m_sharedMaterial: {fileID: 4180460886605262061, guid: 6e0a272d6c89a9347a5626feeb1eb2f5,
@@ -379,9 +379,9 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -44.73169, w: -13.771484}
   m_textInfo:
     textComponent: {fileID: 785837338}
-    characterCount: 292
+    characterCount: 290
     spriteCount: 0
-    spaceCount: 150
+    spaceCount: 148
     wordCount: 30
     linkCount: 0
     lineCount: 10
