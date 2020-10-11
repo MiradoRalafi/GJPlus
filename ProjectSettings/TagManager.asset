@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - box
+  - Boss
   layers:
   - Default
   - TransparentFX

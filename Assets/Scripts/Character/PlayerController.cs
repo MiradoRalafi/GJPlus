@@ -57,7 +57,10 @@ public class PlayerController : MonoBehaviour
        // else
             //anim.SetTrigger("isDead");//Eto no anoloana anle variable anle animationDead --Chains
     }
+    public void ReceiveDamage(int damage)
+    {
 
+    }
     void Move()
     {
         float speed = moveSpeed;
