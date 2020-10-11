@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ItemManager : MonoBehaviour
 {
@@ -26,10 +27,10 @@ public class ItemManager : MonoBehaviour
     }
     IEnumerator TransitionPART2()
     {
-        
+        SceneManager.LoadScene("Level1Part2");
         yield return new WaitForSeconds(delay);
-        part2.SetActive(true);
-        decharge.SetActive(false);
+        //part2.SetActive(true);
+        
     }
    void CheckList()
     {

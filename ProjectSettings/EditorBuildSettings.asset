@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 1.unity
     guid: 3bf0ddcecc2856d449c229f9c540e7de
+  - enabled: 1
+    path: Assets/Scenes/Level1Part2.unity
+    guid: c6e326ce29bd28346b5dd9fe79603d76
   m_configObjects: {}

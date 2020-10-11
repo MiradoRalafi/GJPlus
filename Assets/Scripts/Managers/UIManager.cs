@@ -32,6 +32,6 @@ public class UIManager : MonoBehaviour
     IEnumerator LoadScene()
     {
         yield return new WaitForSeconds(1f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("Level1Part2");
     }
 }
