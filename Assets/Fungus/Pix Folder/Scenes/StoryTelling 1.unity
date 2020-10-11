@@ -465,6 +465,7 @@ MonoBehaviour:
   FadeSpeed: 19
   RolloverCharacterSpread: 10
   Scenename: Level 1 Dialog
+  objet: {fileID: 1217859100}
 --- !u!114 &1108561936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +562,6 @@ MonoBehaviour:
   m_TextComponent: {fileID: 1217859101}
   FadeSpeed: 20
   RolloverCharacterSpread: 10
-  Scenename: 
 --- !u!1 &1217859100
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,9 @@ public class NewBehaviourScript : MonoBehaviour
     private int RolloverCharacterSpread = 10;
     [SerializeField]
     string Scenename;
+ [SerializeField]
+    GameObject objet;
+  
 
     void Start()
     {
@@ -110,6 +113,8 @@ public class NewBehaviourScript : MonoBehaviour
 
             yield return new WaitForSeconds(0.25f - FadeSpeed * 0.01f);
         }
+	Destroy(objet);
+
         SceneManager.LoadScene(Scenename, LoadSceneMode.Additive);
 
     }

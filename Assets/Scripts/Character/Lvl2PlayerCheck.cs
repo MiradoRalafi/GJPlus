@@ -36,6 +36,7 @@ public class Lvl2PlayerCheck : MonoBehaviour
     }
     IEnumerator Dead()
     {
+        
         panel.SetActive(true);
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

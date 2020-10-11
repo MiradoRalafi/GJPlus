@@ -13,8 +13,7 @@ public class FadedText: MonoBehaviour
     private float FadeSpeed = 20.0f;
     [SerializeField]
     private int RolloverCharacterSpread = 10;
-    [SerializeField]
-    string Scenename;
+
 
     void Start()
     {
