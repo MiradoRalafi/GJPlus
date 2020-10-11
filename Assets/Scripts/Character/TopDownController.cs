@@ -31,12 +31,13 @@ public class TopDownController : MonoBehaviour
 
     Light spotLight;
     public float NormalLightAngle = 30;
-    public float LightShrinkCountdown = 5;
+    public float LightShrinkCountdown = 6;
     float timeBeforeLightShrink;
 
     protected void Start()
     {
         spotLight = GetComponentInChildren<Light>();
+        timeBeforeLightShrink = 8;
         CalculateRaySpacings();
     }
 
@@ -47,7 +48,8 @@ public class TopDownController : MonoBehaviour
             timeBeforeLightShrink -= Time.deltaTime;
             if(timeBeforeLightShrink <= 0)
             {
-                StartCoroutine(StartSpotLightChange(NormalLightAngle));
+                StartCoroutine(StartSpotLightChange(spotLight.spotAngle - 15));
+                timeBeforeLightShrink = LightShrinkCountdown;
             }
         }
         velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
@@ -57,7 +59,6 @@ public class TopDownController : MonoBehaviour
         animator.SetBool("UpWalking", false);
         if (velocity.x != 0)
         {
-            print(velocity.x == -1);
             print(velocity.x == 1);
             animator.SetBool("LeftWalking", velocity.x == -1);
             animator.SetBool("RightWalking", velocity.x == 1);
@@ -74,10 +75,12 @@ public class TopDownController : MonoBehaviour
     public void SetSpotlightRadius(float angle)
     {
         StartCoroutine(StartSpotLightChange(angle));
+        timeBeforeLightShrink += 2f;
     }
 
     IEnumerator StartSpotLightChange(float angle)
     {
+        print("Spotlight change to " + angle);
         if(spotLight.spotAngle > angle)
         {
             while (spotLight.spotAngle > angle)
@@ -95,6 +98,10 @@ public class TopDownController : MonoBehaviour
             }
         }
         spotLight.spotAngle = angle;
+        if(angle == 0)
+        {
+            spotLight.gameObject.SetActive(false);
+        }
         timeBeforeLightShrink = LightShrinkCountdown;
     }
 
