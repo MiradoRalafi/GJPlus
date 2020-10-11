@@ -17,6 +17,8 @@ public class NewBehaviourScript : MonoBehaviour
     string Scenename;
  [SerializeField]
     GameObject objet;
+[SerializeField]
+    GameObject objet1;
   
 
     void Start()
@@ -114,7 +116,7 @@ public class NewBehaviourScript : MonoBehaviour
             yield return new WaitForSeconds(0.25f - FadeSpeed * 0.01f);
         }
 	Destroy(objet);
-
+Destroy(objet1);
         SceneManager.LoadScene(Scenename, LoadSceneMode.Additive);
 
     }
