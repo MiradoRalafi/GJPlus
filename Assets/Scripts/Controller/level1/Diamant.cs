@@ -5,7 +5,7 @@ using UnityEngine;
 public class Diamant : MonoBehaviour
 {
     public bool isClicked=false;
-    public float delay=1f;
+    public float delay=0f;
     // Start is called before the first frame update
     void Start()
     {
