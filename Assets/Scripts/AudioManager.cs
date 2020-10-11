@@ -32,6 +32,13 @@ public class AudioManager : MonoBehaviour
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("AmbiSelector", ambiSelector);
     }
 
+    public static void StoMusic()
+    {
+        instanceMusic.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        instanceMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
+        instanceMusic.start();
+    }
+
     public static void StopAmbi()
     {
         instanceAmbi.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
