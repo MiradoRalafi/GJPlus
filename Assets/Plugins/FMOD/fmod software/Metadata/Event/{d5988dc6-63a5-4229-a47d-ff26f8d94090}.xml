@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{d5988dc6-63a5-4229-a47d-ff26f8d94090}">
 		<property name="name">
-			<value>level0100</value>
+			<value>findingDiamond</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

@@ -10,8 +10,11 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        instanceMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
-        instanceMusic.start();
+        if (!IsPlaying(instanceMusic))
+        {
+            instanceMusic = FMODUnity.RuntimeManager.CreateInstance("event:/Music");
+            instanceMusic.start();
+        }
         //instanceAmbi = FMODUnity.RuntimeManager.CreateInstance("event:/Ambi");
         //instanceAmbi.start();
     }
@@ -25,6 +28,13 @@ public class AudioManager : MonoBehaviour
     public static void PlayMusicSelector(int musicSelector)
     {
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("MusicSelector", musicSelector);
+    }
+
+    public bool IsPlaying(FMOD.Studio.EventInstance instance)
+    {
+        FMOD.Studio.PLAYBACK_STATE state;
+        instance.getPlaybackState(out state);
+        return state != FMOD.Studio.PLAYBACK_STATE.STOPPED;
     }
 
     public static void PlayAmbiSelector(int ambiSelector)

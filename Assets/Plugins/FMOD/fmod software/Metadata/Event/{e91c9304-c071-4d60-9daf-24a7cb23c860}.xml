@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{e91c9304-c071-4d60-9daf-24a7cb23c860}">
 		<property name="name">
-			<value>ES_Torch Flame Burn</value>
+			<value>torch</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{ddd37be8-48c5-4e71-9596-f5d0d69e6923}</destination>
+			<destination>{bc68d0f1-554a-45b4-8cf6-d80f2fb5c797}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{f0a513df-b59f-4fab-8bd7-8fcf8b908a4b}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{61b990cf-7291-442d-9030-6ca47d26a83f}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{940a544a-5e9e-425a-8235-1f520cea39d6}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{f0a513df-b59f-4fab-8bd7-8fcf8b908a4b}">
