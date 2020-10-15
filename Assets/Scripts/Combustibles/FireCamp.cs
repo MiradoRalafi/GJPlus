@@ -7,7 +7,7 @@ public class FireCamp : MonoBehaviour
     public Light SpotLight;
     public FireLight FireLight;
     public bool Active = false;
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         TopDownController controller = collision.GetComponent<TopDownController>();

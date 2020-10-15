@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Fungus/Pix Folder/Scenes/Level 2 Dialog.unity
     guid: 624b29a59b1cc85419715a115b89121a
   - enabled: 1
+    path: Assets/Scenes/Level3Part2.unity
+    guid: e6471f117c20a314eb66e3b8316be8af
+  - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/Level 1 Dialog.unity
     guid: c7dd15d7920f83a4a93efbf19766493f
   - enabled: 1

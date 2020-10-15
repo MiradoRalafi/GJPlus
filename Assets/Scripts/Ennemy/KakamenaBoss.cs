@@ -5,7 +5,7 @@ using UnityEngine;
 public class KakamenaBoss : MonoBehaviour
 {
     public Transform target;
-    public float WaitTime = 2;
+    public float WaitTime = .5f;
     float waitTimeLeft;
     Animator animator;
 
@@ -83,7 +83,7 @@ public class KakamenaBoss : MonoBehaviour
         {
             targetWalk = target.transform.position;
             distance = Vector2.Distance(target.position, transform.position);
-            transform.position = Vector2.MoveTowards(transform.position, targetWalk, .03f);
+            transform.position = Vector2.MoveTowards(transform.position, targetWalk, .1f);
             yield return null;
         }
         targetWalk = Vector2.zero;
@@ -98,7 +98,7 @@ public class KakamenaBoss : MonoBehaviour
     IEnumerator WaitAndAttack()
     {
         animator.SetTrigger("Idle");
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.1f);
         Attack();
     }
 
@@ -135,9 +135,9 @@ public class KakamenaBoss : MonoBehaviour
             animator.SetTrigger("Jump");
             GetComponent<Rigidbody2D>().velocity = new Vector2(faceDirection * 10, 15);
 
-            yield return new WaitForSeconds(1.1f);
+            yield return new WaitForSeconds(0.5f);
             animator.SetTrigger("Idle");
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(.1f);
             number--;
         }
         performingAction = false;
