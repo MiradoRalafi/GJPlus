@@ -9,6 +9,7 @@ public class Boss3 : MonoBehaviour
     public float WaitTime = 3;
     private float originalTime;
     public Image timeUI;
+    bool halftime=false;
     private void Start()
     {
         originalTime = WaitTime;
@@ -19,6 +20,11 @@ public class Boss3 : MonoBehaviour
         if(WaitTime > 0)
         {
             WaitTime -= Time.deltaTime;
+            if (!halftime && WaitTime < originalTime / 3)
+            {
+                halftime = true;
+                AudioManager.PlayMusicSelector(5);
+            }
             timeUI.fillAmount = WaitTime / originalTime;
         }
         else
