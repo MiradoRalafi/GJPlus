@@ -933,11 +933,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 91.366394, y: 55.175236}
+  scrollPos: {x: 179.47598, y: 142.79178}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.73000026
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -946,7 +946,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1086984348}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1086984329}
   variables: []
   description: 
   stepPause: 0
@@ -993,7 +994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.0989
     y: 54.99453
-    width: 110.27396
+    width: 70.8
     height: 40
   tint: {r: 0.41509432, g: 0.013705952, b: 0.013705952, a: 1}
   useCustomTint: 1
@@ -1071,7 +1072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 85
   indentLevel: 0
-  storyText: Crap !!!!! I need to climb if dont want to die here
+  storyText: Crap!!!!! I need to climb. I don't want to fade here!!!
   description: 
   character: {fileID: 1007727607}
   portrait: {fileID: 0}
@@ -1290,7 +1291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: 'What the f*** Happen ? '
+  storyText: Wow... What happened?
   description: 
   character: {fileID: 1007727607}
   portrait: {fileID: 0}
@@ -1358,7 +1359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.49493
     y: 243.23566
-    width: 117.12326
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1403,7 +1404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 231.0004
     y: 153.09993
-    width: 115.7534
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1430,7 +1431,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 442.55807
     y: 164.26993
-    width: 118.493126
+    width: 80.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1543,7 +1544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 743.3811
     y: 101.02329
-    width: 117.12326
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1663,7 +1664,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.38184
     y: 264.27
-    width: 118.493126
+    width: 80.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2082,7 +2083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: haaaaaaaaaaaaaaaaaaaa
+  storyText: Aaaaaaaaaaargh!!!
   description: 
   character: {fileID: 1007727607}
   portrait: {fileID: 0}
@@ -2109,7 +2110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: Damn !! She push me to the hole !!
+  storyText: Oh no !! She pushed me to the hole !!!
   description: 
   character: {fileID: 1007727607}
   portrait: {fileID: 0}
