@@ -453,9 +453,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n    Madagascar, 2020\nMankind has destroyed nature.\nI was but a child
-    when they appeared.\nThat day everything changed .\n \n        My Name is Hasinala
-    .\n      This is My Untold Story..."
+  m_text: "Madagascar, 2020\r\nMankind has destroyed nature.\r\nI was only a child
+    when they came along.\r\nThat day everything changed.\r\nMy Name is Hasinala.\r\nThis
+    is My Untold Story...\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 26ba15b0239c9034993fd022c671f79e, type: 2}
   m_sharedMaterial: {fileID: -2594736775119061689, guid: 26ba15b0239c9034993fd022c671f79e,
@@ -525,12 +525,12 @@ MonoBehaviour:
   m_margin: {x: -9.377563, y: -136.35333, z: 0, w: -83.07349}
   m_textInfo:
     textComponent: {fileID: 785837338}
-    characterCount: 184
+    characterCount: 170
     spriteCount: 0
-    spaceCount: 49
+    spaceCount: 27
     wordCount: 28
     linkCount: 0
-    lineCount: 11
+    lineCount: 9
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -711,6 +711,50 @@ MonoBehaviour:
   m_TextComponent: {fileID: 1217859101}
   FadeSpeed: 20
   RolloverCharacterSpread: 10
+--- !u!1 &1212819551
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1212819553}
+  - component: {fileID: 1212819552}
+  m_Layer: 0
+  m_Name: _FungusState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1212819552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212819551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedFlowchart: {fileID: 0}
+--- !u!4 &1212819553
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212819551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1217859100
 GameObject:
   m_ObjectHideFlags: 0
