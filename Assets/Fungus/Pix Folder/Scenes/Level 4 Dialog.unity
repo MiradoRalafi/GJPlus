@@ -219,7 +219,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &98166278
 GameObject:
@@ -443,7 +443,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &487191956 stripped
 GameObject:
@@ -888,7 +888,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1024430734
 GameObject:
@@ -1275,7 +1275,7 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702580849
 GameObject:
@@ -1528,21 +1528,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 70.673904, y: 229.7142}
+  scrollPos: {x: 478.6739, y: 520.71423}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 1
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -591
     y: -452
     width: 1887
     height: 1080
-  selectedBlocks:
-  - {fileID: 1740993956}
-  selectedCommands:
-  - {fileID: 1740994022}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 'This scene shows how to set up a drag-and-drop
 
@@ -1573,7 +1571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 175.8261
     y: 23.285805
-    width: 141
+    width: 96.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1720,7 +1718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: 'Well , i will rest  here then '
+  storyText: Well, I will rest  here then.
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -1749,7 +1747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -145.43192
     y: -157.479
-    width: 77
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1847,9 +1845,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 597
+    x: 593
     y: 31
-    width: 143
+    width: 99.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1946,7 +1944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 420.82608
     y: 29
-    width: 142
+    width: 99.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2239,7 +2237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134
     y: 130.36066
-    width: 114
+    width: 70.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2267,7 +2265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -91
     y: 131.36066
-    width: 123
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2295,7 +2293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25
     y: 28.360657
-    width: 137
+    width: 93.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2322,8 +2320,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -144.3158
-    y: 23.86812
-    width: 107
+    y: 27.86812
+    width: 64.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2383,7 +2381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: 'What is happening ? the ground is shaking '
+  storyText: What is happening? The ground is shaking...
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2468,7 +2466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: What ?
+  storyText: What?
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2495,7 +2493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: I am returning to my village
+  storyText: I am coming back to my village.
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2522,9 +2520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 32
   indentLevel: 0
-  storyText: 'Thanks my friend , where are you going like that ?
-
-'
+  storyText: Thanks buddy, where are you going like that?
   description: 
   character: {fileID: 434389864}
   portrait: {fileID: 0}
@@ -2551,9 +2547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: 'Ok i will help you
-
-'
+  storyText: "Ok, I will help you\r."
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2580,7 +2574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  storyText: 'You look like a good guy '
+  storyText: "You look like a good guy\r."
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2607,7 +2601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Hello Human can you remove the Pickaxe on my back
+  storyText: "Hello Human can you remove the Pickaxe on my spine\r?\n"
   description: 
   character: {fileID: 434389864}
   portrait: {fileID: 0}
@@ -2853,7 +2847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: SO there is nothing left
+  storyText: SO there is nothing left.
   description: 
   character: {fileID: 1608621036}
   portrait: {fileID: 0}
@@ -2880,7 +2874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 47
   indentLevel: 0
-  storyText: You ! Human invoked US ,the Legend
+  storyText: "You! Human invoked us, The Legend\r."
   description: 
   character: {fileID: 434389864}
   portrait: {fileID: 0}
@@ -2907,7 +2901,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 46
   indentLevel: 0
-  storyText: I see , but you know there is nothing more
+  storyText: 'I see, but you know there is nothing more
+
+'
   description: 
   character: {fileID: 434389864}
   portrait: {fileID: 0}
@@ -3119,7 +3115,7 @@ MonoBehaviour:
   visibleOLD: 0
 --- !u!114 &1740994020
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3139,7 +3135,7 @@ MonoBehaviour:
   fadeTweenType: 38
 --- !u!114 &1740994021
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3169,7 +3165,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1740994022
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
