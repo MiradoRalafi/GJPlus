@@ -442,11 +442,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 188.63434, y: 190.32764}
+  scrollPos: {x: 749.6344, y: 535.3277}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -456,7 +456,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 758542561}
   selectedCommands:
-  - {fileID: 758542578}
+  - {fileID: 758542568}
   variables: []
   description: 
   stepPause: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: hihihihihihihi !!!!!
+  storyText: Hihihihihihihi !!!!!
   description: 
   character: {fileID: 1599617503}
   portrait: {fileID: 0}
@@ -511,7 +511,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 73.228676
     y: 62.67237
-    width: 111
+    width: 70.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: zzzzzzzzzzzzzzzzzzzzz
+  storyText: ZZZzzzzzzzz....
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -649,7 +649,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &758542567
 MonoBehaviour:
@@ -665,9 +665,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: 'ughh !! i fall asleep !!
+  storyText: 'Ugh!! I fell asleep!!
 
-    Where i am ?'
+    Where am I?
+
+'
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -694,7 +696,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: I need to turn on all the Light with this Torche to escape this nightmare
+  storyText: 'I need to turn on all the Light with this Torche to get away from this
+    nightmare.
+
+'
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -721,7 +726,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: 'ughhh, Maybe he is afraid of Light '
+  storyText: 'Ughhh, Maybe he is afraid of the brightness.
+
+'
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -748,7 +755,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: And now your Soul is mine
+  storyText: 'And now your Soul is mine.
+
+'
   description: 
   character: {fileID: 1599617503}
   portrait: {fileID: 0}
@@ -775,7 +784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: Stupid human , you fell asleep on the forbiden tree
+  storyText: Foolish human, you fell asleep on the taboo tree.
   description: 
   character: {fileID: 1599617503}
   portrait: {fileID: 0}
@@ -802,7 +811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: What is that ? Who is there ?
+  storyText: What is that? Who is there?
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -889,7 +898,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: I need to rest a bit
+  storyText: 'I need to rest a bit.
+
+'
   description: 
   character: {fileID: 161074228}
   portrait: {fileID: 0}
@@ -1452,5 +1463,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
