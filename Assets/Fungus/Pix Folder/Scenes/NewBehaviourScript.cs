@@ -33,6 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
     /// <returns></returns>
     IEnumerator FadeInText()
     {
+        print(Scenename);
         // Set the whole text transparent
         m_TextComponent.color = new Color
             (
@@ -54,7 +55,7 @@ public class NewBehaviourScript : MonoBehaviour
 
         while (!isRangeMax)
         {
-            int characterCount = textInfo.characterCount;
+            int characterCount = textInfo.characterCount-1;
 
             // Spread should not exceed the number of characters.
             byte fadeSteps = (byte)Mathf.Max(1, 255 / RolloverCharacterSpread);
@@ -85,7 +86,7 @@ public class NewBehaviourScript : MonoBehaviour
                 if (alpha == 255)
                 {
                     startingCharacterRange += 1;
-
+                    print("StartingCharcterRange" + startingCharacterRange + "characterCount" + characterCount);
                     if (startingCharacterRange == characterCount)
                     {
                         // Update mesh vertex data one last time.
@@ -97,13 +98,13 @@ public class NewBehaviourScript : MonoBehaviour
                         m_TextComponent.ForceMeshUpdate();
 
                         yield return new WaitForSeconds(1.0f);
-
+                        isRangeMax = true; // Would end the coroutine.
                         // Reset our counters.
                         currentCharacter = 0;
                         startingCharacterRange = 0;
-                       
 
-                        isRangeMax = true; // Would end the coroutine.
+                     
+                       
                     }
                 }
             }
@@ -112,11 +113,13 @@ public class NewBehaviourScript : MonoBehaviour
             m_TextComponent.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
 
             if (currentCharacter + 1 < characterCount) currentCharacter += 1;
-
+            //print(isRangeMax);
             yield return new WaitForSeconds(0.25f - FadeSpeed * 0.01f);
         }
+        
 	Destroy(objet);
-Destroy(objet1);
+    Destroy(objet1);
+       
         SceneManager.LoadScene(Scenename, LoadSceneMode.Additive);
 
     }

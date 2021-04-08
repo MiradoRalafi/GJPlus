@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Pause : MonoBehaviour
 {
     public GameObject pauseUI;
-
+    public GameObject helpUI;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +34,13 @@ public class Pause : MonoBehaviour
                 pauseUI.SetActive(false);
             }
         }
+    }
+    public void OpenHelp()
+    {
+        if (helpUI.activeSelf)
+            helpUI.SetActive(false);
+        else
+            helpUI.SetActive(true);
     }
     public void Resume()
     {
