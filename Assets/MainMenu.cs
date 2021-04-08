@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject levelPanel;
     public void PlayGame()
     {
         SceneManager.LoadScene("StoryTelling 1");
@@ -17,6 +18,13 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     } 
+    public void OpenLevelSelector()
+    {
+        if (levelPanel.activeSelf)
+            levelPanel.SetActive(false);
+        else
+            levelPanel.SetActive(true);
+    }
     public void ExitGame()
     {
         Debug.Log("QUIT!");

@@ -47,9 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 2.unity
     guid: bc2aa4ff7de87da418c5e6e6f3e6575f
-  - enabled: 1
-    path: Assets/Scenes/Wiki.unity
-    guid: 6bd02b4dfe9f9ed4e9946fdf83b5609a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Fungus/Pix Folder/Scenes/StoryTelling 4.unity
     guid: 35a0a78adb50b424eb61ae485d264355
