@@ -7,10 +7,12 @@ public class Pause : MonoBehaviour
 {
     public GameObject pauseUI;
     public GameObject helpUI;
+    public float timeBeforeStart = 2f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        if(helpUI)
+            StartCoroutine(Load());
     }
 
     // Update is called once per frame
@@ -38,9 +40,24 @@ public class Pause : MonoBehaviour
     public void OpenHelp()
     {
         if (helpUI.activeSelf)
+        {
             helpUI.SetActive(false);
+           // Time.timeScale = 1f;
+        }
         else
+        {
             helpUI.SetActive(true);
+           // Time.timeScale = 0f;
+        }
+    }
+    IEnumerator Load()
+    {
+        Time.timeScale = 0f;
+        helpUI.SetActive(true);
+        yield return new WaitForSecondsRealtime(timeBeforeStart);
+        print("ato");
+        helpUI.SetActive(false);
+        Time.timeScale = 1f;
     }
     public void Resume()
     {
