@@ -69,10 +69,16 @@ public class PlayerController : MonoBehaviour
         if (direction != 0)
         {
             lastDirection = direction;
+            if(!AudioManager.IsPlaying(AudioManager.instanceFoostep)){
+                AudioManager.playFootstep();
+            }
+        }else{
+            AudioManager.stopFootstep();
         }
         rb.velocity = new Vector2(direction * speed, rb.velocity.y);
         if (isGround && Input.GetKeyDown(KeyCode.Space))
         {
+            AudioManager.PlayOneShot("event:/sfx/jump");
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             isGround = false;
             isJumping = true;
@@ -84,8 +90,9 @@ public class PlayerController : MonoBehaviour
         float speed = moveSpeed;
         float directionX = Input.GetAxisRaw("Horizontal");
         float directionY = Input.GetAxisRaw("Vertical");
-        if (directionX != 0 || directionY != 0)
+        if (directionX != 0 || directionY != 0){
             isWalk = true;
+        }
         else
             isWalk = false;
         if (directionX != 0)
