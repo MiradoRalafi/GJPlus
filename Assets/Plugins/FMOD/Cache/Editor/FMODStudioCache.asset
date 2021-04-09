@@ -18,6 +18,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8935438484794902440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535136904499677
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-8341126043338313545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 1
 --- !u!114 &-8336442131942077711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +104,7 @@ MonoBehaviour:
   guid: 1cdd7c36b81318428cc3b74c8b660078
   Banks:
   - {fileID: 3212688007806310733}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -111,7 +146,7 @@ MonoBehaviour:
   guid: c68d98d5a5632942a47dff26f8d94090
   Banks:
   - {fileID: 3212688007806310733}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -119,6 +154,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 45727
+--- !u!114 &-7802095206247050050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
 --- !u!114 &-7619610673645121296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +241,77 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6039351415184812129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535168148512574
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-5922257260677322112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
+--- !u!114 &-5366059456246029508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535143299081387
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-4983300369199756979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535164438154107
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4738775847306608946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,6 +328,41 @@ MonoBehaviour:
   Min: 0
   Max: 11
   Default: 0
+  Exists: 0
+--- !u!114 &-4706223171279092586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
+--- !u!114 &-4610770896042129959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535167528223036
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-4408184473151038298
 MonoBehaviour:
@@ -256,7 +414,7 @@ MonoBehaviour:
   guid: 04931ce971c0604d9daf24a7cb23c860
   Banks:
   - {fileID: 3212688007806310733}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -282,6 +440,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3398008099384407088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/on hover button
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/on hover button
+  guid: 9142fa9d2f4b8548af54d21fc2383116
+  Banks:
+  - {fileID: -6039351415184812129}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 22
 --- !u!114 &-1397609021847790270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +478,24 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637383043597966638
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-825897933587445289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535164528924004
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -334,7 +533,7 @@ MonoBehaviour:
   lastModified: 637383048405050028
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-362116232446519190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,20 +566,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 8195577825990588059}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   EditorEvents:
   - {fileID: 4663949389121012676}
   - {fileID: 1511688564140896362}
   - {fileID: -7964210324795535564}
   - {fileID: -3826641394378316990}
   - {fileID: -8152036155992317311}
+  - {fileID: -3398008099384407088}
+  - {fileID: 8770316820143601165}
+  - {fileID: 4055555321576201683}
   EditorParameters:
-  - {fileID: 3748230492866682983}
+  - {fileID: 3754729917126035342}
   MasterBanks:
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   StringsBanks:
   - {fileID: 8195577825990588059}
-  stringsBankWriteTime: 637383048405109865
+  stringsBankWriteTime: 637535168148542509
   cacheVersion: 3
 --- !u!114 &601937124128809149
 MonoBehaviour:
@@ -436,6 +638,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1449030752006761947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535162298796725
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1511688564140896362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -452,7 +672,7 @@ MonoBehaviour:
   guid: cc3c116cb0639d43a59683709401dc36
   Banks:
   - {fileID: 3212688007806310733}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -534,7 +754,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &3399157737905380729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
 --- !u!114 &3748230492866682983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
+--- !u!114 &3754729917126035342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,6 +822,29 @@ MonoBehaviour:
   Max: 11
   Default: 0
   Exists: 1
+--- !u!114 &4055555321576201683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ambi/diamond
+  m_EditorClassIdentifier: 
+  Path: event:/ambi/diamond
+  guid: e56a4160aef07b41a338a80648a67369
+  Banks:
+  - {fileID: -6039351415184812129}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
 --- !u!114 &4091076385093328960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,7 +936,7 @@ MonoBehaviour:
   guid: 42c9371b88a6d04a88b8d865c0fc4c06
   Banks:
   - {fileID: 3212688007806310733}
-  - {fileID: -646295651060733183}
+  - {fileID: -6039351415184812129}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -736,6 +1013,95 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6199642371716304071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535163291452423
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &6622233736847517420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: MusicSelector
+  m_EditorClassIdentifier: 
+  Name: MusicSelector
+  Min: 0
+  Max: 11
+  Default: 0
+  Exists: 0
+--- !u!114 &6730395846290438827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535160425384116
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7198338670365981218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535143374544061
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7386353872919098453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535132895674187
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &7432658626321026868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,12 +1155,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637383048405109865
+  lastModified: 637535168148542509
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1118
+    Value: 1280
   Exists: 1
+--- !u!114 &8333287112490485980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/fmod software/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637535163735907239
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8540951122521519798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,3 +1214,26 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8770316820143601165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/on click button
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/on click button
+  guid: 9672e3b9db188c4a98c53d0cb4a2e7cf
+  Banks:
+  - {fileID: -6039351415184812129}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 126
